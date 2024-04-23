@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - /bin/cp -r /home/jambfksl/repositories/jamboree/* /home/jambfksl/public_html/
+    - /bin/cp -r /home/jambfksl/jamboree-web/* /home/jambfksl/public_html/

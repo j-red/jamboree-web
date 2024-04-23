@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jambfksl/public_html/
+    # - /bin/cp index.html $DEPLOYPATH
+    # - /bin/cp style.css $DEPLOYPATH # copy individual files
+    - /bin/cp -R ./ $DEPLOYPATH # copy entire directory into public_html

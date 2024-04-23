@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/jambfksl/public_html/
-    - /bin/rm -rf $DEPLOYPATH # empty out deployment directory
+    - /bin/rm -rf $DEPLOYPATH
